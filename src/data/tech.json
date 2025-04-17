@@ -1,0 +1,18 @@
+{
+  "tech": [
+    {
+      "title": "More Tech",
+      "tags": [
+        "CSS Grid",
+        "CSS Flexbox",
+        "CSS Responsive",
+        "Web Accessibility",
+        "APIs",
+        "mob-programming",
+        "pair-programming",
+        "GitHub",
+        "Git"
+      ]
+    }
+  ]
+}
