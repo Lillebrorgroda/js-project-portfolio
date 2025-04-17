@@ -1,0 +1,41 @@
+{
+  "skills": [
+    {
+      "title": "Code",
+      "tags": [
+        "Javascript",
+        "React",
+        "typescript",
+        "HTML5",
+        "CSS3"
+      ]
+    },
+    {
+      "title": "Toolbox",
+      "tags": [
+        "VS Code",
+        "Github",
+        "Figma",
+        "Slack",
+        "Zoom/Teams"
+      ]
+    },
+    {
+      "title": "Upcomming",
+      "tags": [
+        "Node.js",
+        "Express",
+        "Mango",
+        "Mangoose"
+      ]
+    },
+    {
+      "title": "Leadership",
+      "tags": [
+        "Transformatinal Leadership (UL)",
+        "Project management",
+        "Problemsolving"
+      ]
+    }
+  ]
+}
