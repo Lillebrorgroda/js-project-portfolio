@@ -2,6 +2,7 @@
   "skills": [
     {
       "title": "Code",
+      "id": "Code",
       "tags": [
         "Javascript",
         "React",

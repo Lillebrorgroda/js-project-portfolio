@@ -22,3 +22,24 @@
 
 // }
 //export default TechSection
+
+
+
+const TechSection = ({ tech }) => {
+  return (
+    <div>
+      {tech.map((tech) => (
+        <div key={tech.title}>
+          <h3>{tech.title}</h3>
+          <ul>
+            {tech.tags.map((tag, index) => (
+              <li key={index}>{tag}</li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </div>
+  )
+}
+
+export default TechSection
