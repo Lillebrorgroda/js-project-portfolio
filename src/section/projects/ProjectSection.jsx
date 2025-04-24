@@ -13,7 +13,8 @@ const ProjectSection = ({ projects, title }) => {
             key={project.name}
             title={project.name}
             image={project.image}
-            text={project.tags.join(", ")}
+            text={project.text}
+            tag={project.tags.join(", ")}
             linknet={project.netlify}
             linkgit={project.github}
           />

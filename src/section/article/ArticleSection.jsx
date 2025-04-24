@@ -1,11 +1,16 @@
 import Card from "../../components/Card"
+import styled from "styled-components"
 
+const ArticleWrapper = styled.article`
+  width: auto;
+  height: 300px;
 
+`
 
 
 const ArticleSection = ({ article, title }) => {
   return (
-    <>
+    <ArticleWrapper>
       <h2>{title}</h2>
       {article.map((article) => {
         return (
@@ -19,7 +24,7 @@ const ArticleSection = ({ article, title }) => {
           />
         )
       })}
-    </>
+    </ArticleWrapper>
   )
 }
 
