@@ -7,7 +7,8 @@ import projects from "./data/projects.json"
 import ProjectSection from "./section/projects/ProjectSection"
 import ArticleSection from "./section/article/ArticleSection"
 import Header from "./section/header/Header"
-
+import Contact from "./section/contact/ContactSection"
+import MyButton from "./components/Button"
 
 
 
@@ -16,14 +17,19 @@ export const App = () => {
     <>
       <Header />
 
+
       <ProjectSection
         title="Featured Projects"
         projects={projects.projects}
+      />
+      <MyButton
+        text="Live demo"
       />
       <ArticleSection
         title="My journey"
         article={article.article}
       />
+      <Contact />
     </>
   )
 }

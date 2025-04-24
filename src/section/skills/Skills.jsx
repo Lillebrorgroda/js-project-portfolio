@@ -1,7 +1,7 @@
 
 
 
-Const SkillSection = () => {
+const SkillSection = () => {
   return (
 
 
