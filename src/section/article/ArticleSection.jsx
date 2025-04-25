@@ -2,8 +2,12 @@ import Card from "../../components/Card"
 import styled from "styled-components"
 
 const ArticleWrapper = styled.article`
-  width: auto;
-  height: 300px;
+display: flex;
+flex-direction: column;
+gap: 24px;
+padding: 64px 24px;
+align-items: center;
+text-align: center;
 
 `
 

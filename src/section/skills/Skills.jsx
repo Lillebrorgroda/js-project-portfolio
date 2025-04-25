@@ -14,8 +14,9 @@ text-align: center;
 const SkillSection = ({ skills, title }) => {
   return (
     <>
-      <h2>{title}</h2>
       <SkillWrapper>
+        <h2>{title}</h2>
+
         {skills.map((skill) => (
           <div key={skill.title}>
             <h3>{skill.title}</h3>
