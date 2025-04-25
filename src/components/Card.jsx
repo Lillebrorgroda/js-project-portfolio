@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import MyButton from "./Button"
 
 const StyledImage = styled.img`
   width: 100%;
@@ -9,21 +10,34 @@ const StyledImage = styled.img`
   object-fit: cover;
 `
 
+const CardWrapper = styled.article`
+  display: flex;
+  flex-direction: column;
+  padding: 64px 16px;
+  gap: 16px;
+`
+
 
 const Card = ({ title, text, image, linknet, linkgit, link, tag }) => {
   return (
 
-    <article>
+    <CardWrapper>
 
       <StyledImage src={image} alt={name} className="card-image" />
+      <div>
+        <h3>{title}</h3>
+        <p>{text}</p>
+        <p>{tag}</p>
+      </div>
+      {linknet && <MyButton buttontype="netlify" href={linknet} />}
+      {/* <a href={linknet}>Netlify</a> */}
+      {linkgit && <MyButton buttontype="github" href={linkgit} />}
+      {/* <a href={linkgit}>Github</a> */}
+      {link && <MyButton buttontype="other" href={link} />}
+      {/* <a href={link}></a> */}
 
-      <h2>{title}</h2>
-      <p>{text}</p>
-      <p>{tag}</p>
-      <a href={linknet}>Netlify</a>
-      <a href={linkgit}>Github</a>
-      <a href={link}></a>
-    </article>
+
+    </CardWrapper>
 
   )
 

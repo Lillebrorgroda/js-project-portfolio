@@ -3,23 +3,33 @@ import styled from "styled-components";
 const SkillWrapper = styled.div`
 display: flex;
 flex-direction: column;
-gap: 24px;
 padding: 64px 24px;
 align-items: center;
 text-align: center;
+`
 
-
+const Divider = styled.hr`
+  border: none;
+  height: 2px ;
+  background-color: #255F38;
+  margin: 24px;
+  width: 200px;
 `
 
 const SkillSection = ({ skills, title }) => {
   return (
     <>
-      <SkillWrapper>
-        <h2>{title}</h2>
 
+      <div>
+        <h2>{title}</h2>
+      </div>
+      <SkillWrapper>
         {skills.map((skill) => (
-          <div key={skill.title}>
+
+          < div key={skill.title}>
+            <Divider />
             <h3>{skill.title}</h3>
+
             <ul>
               {skill.tags.map((tag, index) => (
                 <li key={index}>{tag}</li>
@@ -27,7 +37,9 @@ const SkillSection = ({ skills, title }) => {
             </ul>
           </div>
         ))}
+
       </SkillWrapper>
+
     </>
   )
 }

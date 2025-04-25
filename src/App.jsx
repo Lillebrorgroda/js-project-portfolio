@@ -27,9 +27,7 @@ export const App = () => {
         title="Featured Projects"
         projects={projects.projects}
       />
-      <MyButton
-        text="Live demo"
-      />
+
       <TechSection
         tech={tech.tech}
       />

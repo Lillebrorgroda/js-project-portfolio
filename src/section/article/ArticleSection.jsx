@@ -1,5 +1,6 @@
 import Card from "../../components/Card"
 import styled from "styled-components"
+import MyButton from "../../components/Button"
 
 const ArticleWrapper = styled.article`
 display: flex;
@@ -25,9 +26,13 @@ const ArticleSection = ({ article, title }) => {
             text={article.text}
             link={article.link}
 
+
           />
+
         )
+
       })}
+
     </ArticleWrapper>
   )
 }

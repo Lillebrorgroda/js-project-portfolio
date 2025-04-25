@@ -5,16 +5,13 @@ import styled from "styled-components"
 const ProjectWrapper = styled.article`
 display: flex;
 flex-direction: column;
-gap: 24px;
+/* gap: 24px; */
 padding: 64px 24px;
 align-items: center;
 text-align: center;
 `
 
-const ImageWrapper = styled.img`
-  /* max-width:280px; */
-  /* height: auto; */
-`
+
 
 
 
