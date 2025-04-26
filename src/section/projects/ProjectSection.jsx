@@ -9,8 +9,15 @@ flex-direction: column;
 padding: 64px 24px;
 align-items: center;
 text-align: center;
-`
 
+@media (min-width: 1025px) {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+`
+const TextWrapper = styled.div`
+  text-align: center;
+`
 
 
 
@@ -18,9 +25,10 @@ text-align: center;
 const ProjectSection = ({ projects, title }) => {
   return (
     <>
-      <ProjectWrapper>
-
+      <TextWrapper>
         <h2>{title}</h2>
+      </TextWrapper>
+      <ProjectWrapper>
         {projects.map((project) => {
           return (
             <Card

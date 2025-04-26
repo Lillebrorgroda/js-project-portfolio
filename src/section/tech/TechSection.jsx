@@ -7,10 +7,13 @@ padding: 64px 24px;
 align-items: center;
 text-align: center;
 
+
  `
 const StyledTags = styled.p`
   font-size: 24px;
   font-weight: 500;
+  max-width: 800px;
+  padding-top: 64px ;
   
 `
 
