@@ -18,7 +18,7 @@ const CardWrapper = styled.article`
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  height: 750px;
+  height: 800px;
   max-width: 400px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
@@ -35,7 +35,7 @@ const Card = ({ title, text, image, linknet, linkgit, link, tag }) => {
 
     <CardWrapper>
 
-      <StyledImage src={image} alt={name} className="card-image" />
+      <StyledImage src={image} alt={title} className="card-image" />
 
       <h3>{title}</h3>
       <p>{text}</p>

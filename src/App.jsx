@@ -11,7 +11,6 @@ import ProjectSection from "./section/projects/ProjectSection"
 import TechSection from "./section/tech/TechSection"
 import ArticleSection from "./section/article/ArticleSection"
 import Contact from "./section/contact/ContactSection"
-import MyButton from "./components/Button"
 
 
 export const App = () => {

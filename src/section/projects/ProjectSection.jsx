@@ -47,7 +47,7 @@ const ProjectSection = ({ projects, title }) => {
           modules={[Navigation]}
           navigation
           spaceBetween={50}
-          slidesPerView={1.5}
+          slidesPerView={1}
           loop={true}
           breakpoints={{
             768: { slidesPerView: 2.5 },
