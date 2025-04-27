@@ -2,20 +2,20 @@
   "article": [
     {
       "title": "Start programming course - Am I out of my mind",
-      "image": "https://images.unsplash.com/photo-1557008075-7f2c5efa4cfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2497&q=80",
-      "text": "HTML5",
-      "link": "link"
+      "image": "/assets/Code-unsplash.jpg",
+      "text": "Maybe — but I’ve always been curious and driven to learn. After years of dreaming (and doubting), I finally took the leap during parental leave. Whether it changes my career or just opens new doors, I’m proud to be following my passion.",
+      "link": "https://www.linkedin.com/posts/therese-modig_starting-a-programming-course-am-i-out-of-activity-7317252098260197378-PsIp?utm_source=share&utm_medium=member_desktop&rcm=ACoAABXmaeoBk1a5fWXaw4sJZUZpT26Q17vUb8s"
     },
     {
       "title": "First sprint done",
-      "image": "https://images.unsplash.com/photo-1557008075-7f2c5efa4cfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2497&q=80",
-      "text": "HTML5",
+      "image": "/assets/Roller-unsplash.jpg",
+      "text": "The first project is finished! It has been a roller-coaster ride of doubt and joy. The idea of starting this journey was sometimes questioned, but working with code and sharing it has been inspiring.",
       "link": "link"
     },
     {
       "title": "Javascript",
-      "image": "https://images.unsplash.com/photo-1557008075-7f2c5efa4cfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2497&q=80",
-      "text": "HTML5",
+      "image": "/assets/JS-unsplash.jpg",
+      "text": "A mix of excitement and challenge. Thrilling to bring web pages to life, but concepts like async programming can be difficult. Each solved problem builds confidence, with JavaScript offering an accessible entry point yet endless depth for continued growth.",
       "link": "link"
     },
     {

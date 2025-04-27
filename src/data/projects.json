@@ -3,31 +3,32 @@
     {
       "name": "Business site",
       "image": "/assets/Business.png",
-      "text": "tttttttttttttttttttttttttt",
+      "text": "A calming, responsive landing page promoting gardening joy and creative love. Focused on visual design, accessibility, and mobile-first performance.",
       "tags": [
         "HTML5",
         "CSS3",
         "JavaScript"
       ],
-      "netlify": "link",
-      "github": "link"
+      "netlify": "https://odlargladjeochskapelsekarlek.netlify.app/",
+      "github": "https://github.com/Lillebrorgroda/js-project-business-site"
     },
     {
       "name": "Recipe Library",
       "image": "/assets/RecipeLibrary.png",
+      "text": "An accessible, responsive recipe app showcasing a dynamic collection of meals. Focused on clean design, intuitive navigation, and optimized performance across all screen sizes.",
       "tags": [
         "HTML5",
         "CSS3",
         "JavaScript",
-        "TypeScript",
         "APIs"
       ],
-      "netlify": "https://nordicweatherapp.netlify.app/",
-      "github": "link"
+      "netlify": "https://lillebrorsrecipes.netlify.app/",
+      "github": "https://github.com/Lillebrorgroda/js-project-recipe-library"
     },
     {
       "name": "Weather app",
       "image": "/assets/Weatherapp.png",
+      "text": "A clean and responsive weather app that adapts to real-time conditions across the Nordic region. It dynamically fetches data and updates the interface to deliver an intuitive and engaging user experience.",
       "tags": [
         "HTML5",
         "CSS3",
@@ -36,20 +37,19 @@
         "APIs"
       ],
       "netlify": "https://nordicweatherapp.netlify.app/",
-      "github": "link"
+      "github": "https://github.com/Lillebrorgroda/newjs-project-weather-app"
     },
     {
       "name": "Quiz app",
       "image": "/assets/WebAccessibility.png",
+      "text": "A mobile-friendly web quiz about accessibility, built with pure JavaScript, HTML, and CSS. Focused on education, responsiveness, and ease of use.",
       "tags": [
         "HTML5",
         "CSS3",
-        "JavaScript",
-        "TypeScript",
-        "APIs"
+        "JavaScript"
       ],
-      "netlify": "https://nordicweatherapp.netlify.app/",
-      "github": "link"
+      "netlify": "https://accessibility-quiz-wind-3.netlify.app/",
+      "github": "https://github.com/Lillebrorgroda/accessibility-quiz-app-wind-3"
     }
   ]
 }

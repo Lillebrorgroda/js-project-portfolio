@@ -10,6 +10,7 @@ const CarouselWrapper = styled.div`
   width: 100%;
   max-width: 1600px;
   padding: 40px 0;
+  overflow: visible;
 
   .swiper-button-next, .swiper-button-prev{
     color: #255f38;
@@ -30,25 +31,9 @@ const CarouselWrapper = styled.div`
 
   
 `
-
-// const ProjectWrapper = styled.article`
-// display: flex;
-// flex-direction: column;
-// /* gap: 24px; */
-// padding: 64px 24px;
-// align-items: center;
-// text-align: center;
-
-// @media (min-width: 1025px) {
-//   display: grid;
-//   grid-template-columns: repeat(4, 1fr);
-// }
-// `
 const TextWrapper = styled.div`
   text-align: center;
 `
-
-
 
 
 const ProjectSection = ({ projects, title }) => {
@@ -57,16 +42,16 @@ const ProjectSection = ({ projects, title }) => {
       <TextWrapper>
         <h2>{title}</h2>
       </TextWrapper>
-      {/* <ProjectWrapper> */}
       <CarouselWrapper>
         <Swiper
           modules={[Navigation]}
           navigation
-          spaceBetween={32}
-          slidesPerView={1}
+          spaceBetween={50}
+          slidesPerView={1.5}
+          loop={true}
           breakpoints={{
-            768: { slidesPerView: 2 },
-            1025: { slidesPerView: 3 },
+            768: { slidesPerView: 2.5 },
+            1025: { slidesPerView: 3.5 },
           }}
         >
 
