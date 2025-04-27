@@ -16,6 +16,13 @@ const CardWrapper = styled.article`
   padding: 64px 16px;
   gap: 16px;
   align-items: center;
+  width: auto;
+  height: 625px;
+`
+const ButtonWrapper = styled.div`
+display: flex;
+gap: 16px;
+width: 100%;
 `
 
 
@@ -30,12 +37,14 @@ const Card = ({ title, text, image, linknet, linkgit, link, tag }) => {
         <p>{text}</p>
         <p>{tag}</p>
       </div>
-      {linknet && <MyButton buttontype="netlify" href={linknet} />}
-      {/* <a href={linknet}>Netlify</a> */}
-      {linkgit && <MyButton buttontype="github" href={linkgit} />}
-      {/* <a href={linkgit}>Github</a> */}
-      {link && <MyButton buttontype="other" href={link} />}
-      {/* <a href={link}></a> */}
+      <ButtonWrapper>
+        {linknet && <MyButton buttontype="netlify" href={linknet} />}
+
+        {linkgit && <MyButton buttontype="github" href={linkgit} />}
+
+        {link && <MyButton buttontype="other" href={link} />}
+      </ButtonWrapper>
+
 
 
     </CardWrapper>
