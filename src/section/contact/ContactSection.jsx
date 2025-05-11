@@ -5,7 +5,7 @@ import IconRow from "../../components/IconRow";
 const ContactWrapper = styled.footer`
 display: flex;
 flex-direction: column;
-padding: 64px 24px;
+padding: 64px 0;
 align-items: center;
 text-align: center;
 max-width: 320px;

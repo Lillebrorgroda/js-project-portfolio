@@ -16,9 +16,9 @@ text-align: center;
 }
 
 `
-
 const TextWrapper = styled.div`
   text-align: center;
+  padding-top: 64px;
 `
 
 

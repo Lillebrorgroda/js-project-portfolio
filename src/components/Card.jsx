@@ -20,9 +20,10 @@ const CardWrapper = styled.article`
   width: 100%;
   height: 800px;
   max-width: 400px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
-`
+  margin-bottom: 24px;
+  `
 const ButtonWrapper = styled.div`
 display: flex;
 gap: 16px;

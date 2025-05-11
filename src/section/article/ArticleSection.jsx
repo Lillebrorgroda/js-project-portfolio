@@ -7,9 +7,10 @@ import "swiper/css/navigation"
 
 const CarouselWrapper = styled.div`
   width: 100%;
-  max-width: 1600px;
-  padding: 40px 0;
+  /* max-width: 1600px; */
+  padding: 64px 0;
   overflow: visible;
+  height: 100%;
 
   .swiper-button-next, .swiper-button-prev{
     color: #255f38;
@@ -45,6 +46,7 @@ const CarouselWrapper = styled.div`
 // `
 const TextWrapper = styled.div`
   text-align: center;
+  padding-top: 64px;
 `
 
 
@@ -58,12 +60,13 @@ const ArticleSection = ({ article, title }) => {
         <Swiper
           modules={[Navigation]}
           navigation
-          spaceBetween={50}
+          spaceBetween={64}
           slidesPerView={1}
           loop={true}
           breakpoints={{
             768: { slidesPerView: 2.5 },
             1025: { slidesPerView: 3.5 },
+            1440: { slidesPerView: 4 },
           }}
         >
 
