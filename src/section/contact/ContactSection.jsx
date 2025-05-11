@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import MyProfilPicture from "../../components/Image";
+import MyProfilePicture from "../../components/Image";
 import IconRow from "../../components/IconRow";
 
 const ContactWrapper = styled.footer`
@@ -33,9 +33,6 @@ const ProfileImageWrapper = styled.div`
   justify-content: center;
   width: 100%;
 
-  /* @media (min-width: 768px) {
-    justify-content: flex-start;
-  } */
 
    @media (min-width: 1025px) {
     justify-content: flex-start;
@@ -67,10 +64,10 @@ const Contact = () => {
 
     <ContactWrapper>
       <ProfileImageWrapper>
-        <MyProfilPicture />
+        <MyProfilePicture />
       </ProfileImageWrapper>
       <ContentWrapper>
-        <h2>Let´s talk</h2>
+        <h2>Let's talk</h2>
         <p>Therese Modig</p>
         <p>+46(0)730 22 66 94</p>
         <p>therese.modig@hotmail.com</p>

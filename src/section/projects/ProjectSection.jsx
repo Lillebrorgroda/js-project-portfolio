@@ -60,13 +60,12 @@ const ProjectSection = ({ projects, title }) => {
           {projects.map((project) => (
             <SwiperSlide key={project.name}>
               <Card
-                key={project.name}
                 title={project.name}
                 image={project.image}
                 text={project.text}
                 tag={project.tags.join(", ")}
-                linknet={project.netlify}
-                linkgit={project.github}
+                netlifyLink={project.netlify}
+                githubLink={project.github}
               />
             </SwiperSlide>
           ))}

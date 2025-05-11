@@ -31,7 +31,7 @@ width: 100%;
 `
 
 
-const Card = ({ title, text, image, linknet, linkgit, link, tag }) => {
+const Card = ({ title, text, image, netlifyLink, githubLink, articleLink, tag }) => {
   return (
 
     <CardWrapper>
@@ -43,11 +43,11 @@ const Card = ({ title, text, image, linknet, linkgit, link, tag }) => {
       <p>{tag}</p>
 
       <ButtonWrapper>
-        {linknet && <MyButton buttontype="netlify" href={linknet} />}
+        {netlifyLink && <MyButton buttonType="netlify" href={netlifyLink} />}
 
-        {linkgit && <MyButton buttontype="github" href={linkgit} />}
+        {githubLink && <MyButton buttonType="github" href={githubLink} />}
 
-        {link && <MyButton buttontype="other" href={link} />}
+        {articleLink && <MyButton buttonType="other" href={articleLink} />}
       </ButtonWrapper>
 
 

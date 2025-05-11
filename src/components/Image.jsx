@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import ProfilPic from "/assets/ProfilPic.jpg"
+import ProfilePic from "/assets/ProfilePic.jpg"
 
 const PictureWrapper = styled.img`
   max-width: 320px;
@@ -10,12 +10,12 @@ const PictureWrapper = styled.img`
 `
 
 
-const MyProfilPicture = () => {
+const MyProfilePicture = () => {
   return (
 
-    <PictureWrapper src={ProfilPic} alt="Picture of Therese Modig" />
+    <PictureWrapper src={ProfilePic} alt="Picture of Therese Modig" />
   )
 
 }
 
-export default MyProfilPicture
+export default MyProfilePicture

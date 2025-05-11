@@ -30,20 +30,6 @@ const CarouselWrapper = styled.div`
   }
 `
 
-// const ArticleWrapper = styled.article`
-// display: flex;
-// flex-direction: column;
-// gap: 24px;
-// padding: 64px 24px;
-// align-items: center;
-// text-align: center;
-
-// @media (min-width: 1025px) {
-//   display: grid;
-//   grid-template-columns: repeat(4, 1fr);
-// }
-
-// `
 const TextWrapper = styled.div`
   text-align: center;
   padding-top: 64px;
@@ -73,11 +59,10 @@ const ArticleSection = ({ article, title }) => {
           {article.map((article) => (
             <SwiperSlide key={article.name}>
               <Card
-                key={article.title}
                 title={article.title}
                 image={article.image}
                 text={article.text}
-                link={article.link}
+                articleLink={article.link}
 
 
               />
